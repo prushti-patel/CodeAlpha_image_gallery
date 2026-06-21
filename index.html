@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="typing-text">My Image Gallery</h1>
+
+    <div class="filters">
+        <button onclick="filterSelection('all')"class="active">Show All</button>
+        <button onclick="filterSelection('nature')">Nature</button>
+        <button onclick="filterSelection('city')">City</button>
+    </div>
+    
+    <div class="gallery-container">
+        
+        <img src="images/img1.jpeg" class="nature" alt="Nature Image 1">
+        <img src="images/img2.jpeg" class="nature" alt="Nature Image 2">
+        <img src="images/img5.jpeg" class="nature" alt="Nature Image 3">
+        <img src="images/img6.jpeg" class="nature" alt="Nature Image 4">
+        <img src="images/img7.jpeg" class="nature" alt="Nature Image 5">
+        <img src="images/img8.jpeg" class="nature" alt="Nature Image 6">
+
+        <img src="images/img3.jpeg" class="city" alt="City Image 1">
+        <img src="images/img4.jpeg" class="city" alt="City Image 2">
+        <img src="images/img9.jpeg" class="city" alt="City Image 3">
+        <img src="images/img10.jpeg" class="city" alt="City Image 4">
+        <img src="images/img11.jpeg" class="city" alt="City Image 5">
+        <img src="images/img12.jpeg" class="city" alt="City Image 6">
+
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="full-img" src="" alt="Full Image">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
