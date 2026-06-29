@@ -18,7 +18,7 @@ CSS3
 JavaScript
 
 ## Live Demo
-Check out the live version of the project here: [Insert your GitHub Pages link here]
+Check out the live version of the project here: [https://prushti-patel.github.io/CodeAlpha_image_gallery/]
 
 ## How to Run
 Clone this repository or download the source code as a ZIP file.
